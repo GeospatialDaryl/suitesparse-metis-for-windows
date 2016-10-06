@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\SourceWrappers\ldl.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\SourceWrappers\ldll.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\Include\ldl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06C45DC1-AB2A-4061-BC17-C4A22F79E0EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{73BA9919-2CFE-4B8D-A5EB-AD6A2D7DB63F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

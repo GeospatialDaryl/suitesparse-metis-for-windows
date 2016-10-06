@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C99DD36A-C300-423C-834F-13CBAB0158D7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\0dc2d0f957af01f60c54c43e5a371c82\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/CMakeFiles/0dc2d0f957af01f60c54c43e5a371c82/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\BTF\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CCOLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\COLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CXSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\GPUQREngine\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\KLU\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_GPURuntime\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\UMFPACK\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\GPUQREngine.dir\Source\GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.depend;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\GKlib\GKlibSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\libmetis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\programs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\include\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\libmetis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\programs\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_config\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\AMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\BTF\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CCOLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\COLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CXSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\KLU\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\LDL\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_GPURuntime\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/CMakeFiles/0dc2d0f957af01f60c54c43e5a371c82/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\BTF\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CCOLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\COLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CXSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\GPUQREngine\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\KLU\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_GPURuntime\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\UMFPACK\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\GPUQREngine.dir\Source\GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.depend;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\GKlib\GKlibSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\libmetis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\programs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\include\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\libmetis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\programs\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_config\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\AMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\BTF\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CCOLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\COLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CXSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\KLU\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\LDL\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_GPURuntime\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/CMakeFiles/0dc2d0f957af01f60c54c43e5a371c82/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\BTF\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CCOLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\COLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CXSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\GPUQREngine\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\KLU\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_GPURuntime\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\UMFPACK\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\GPUQREngine.dir\Source\GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.depend;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\GKlib\GKlibSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\libmetis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\programs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\include\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\libmetis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\programs\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_config\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\AMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\BTF\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CCOLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\COLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CXSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\KLU\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\LDL\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_GPURuntime\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/CMakeFiles/0dc2d0f957af01f60c54c43e5a371c82/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenMP.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\BTF\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CCOLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\COLAMD\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CXSparse\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\GPUQREngine\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\KLU\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\LDL\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_GPURuntime\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\UMFPACK\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\GPUQREngine.dir\Source\GPUQREngine_generated_GPUQREngine_UberKernel.cu.obj.depend;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\GKlib\GKlibSystem.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\libmetis\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\programs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\include\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\libmetis\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\metis\programs\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_config\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\AMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\BTF\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CCOLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\COLAMD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\CXSparse\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\KLU\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\LDL\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SuiteSparse_GPURuntime\CMakeFiles\generate.stamp;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\GPUQREngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

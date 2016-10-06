@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{33470C49-9696-4736-8A35-BB33C97B484F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>spqr</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spqr.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libspqrd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spqr.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libspqr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spqr.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libspqr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spqr.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libspqr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GPU_BLAS;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>X:\_02_Repos\Repos\19iv_SSMetis4Win\metis\include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\.;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SuiteSparse_config;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\CHOLMOD\Include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/SuiteSparse/SPQR/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include\spqr.hpp" />
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include\spqrgpu.hpp" />
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include\SuiteSparseQR.hpp" />
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include\SuiteSparseQR_C.h" />
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Include\SuiteSparseQR_definitions.h" />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_rmap.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\SuiteSparseQR_C.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_parallel.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_kernel.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_analyze.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_assemble.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_cpack.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_csize.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_fcsize.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_debug.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_front.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_factorize.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_freenum.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_freesym.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_freefac.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_fsize.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_maxcolnorm.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_rconvert.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_rcount.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_rhpack.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_rsolve.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_stranspose1.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_stranspose2.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_hpinv.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_1fixed.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_1colamd.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_1factor.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_cumsum.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_shift.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_happly.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_panel.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_happly_work.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\SuiteSparseQR_qmult.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_trapezoidal.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_larftb.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_append.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_type.cpp"  />
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\SPQR\Source\spqr_tol.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/ZERO_CHECK.vcxproj">
+      <Project>C99DD36A-C300-423C-834F-13CBAB0158D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/AMD/amd.vcxproj">
+      <Project>EE283042-8A2E-4C38-BCE3-665E25D4D13C</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/CAMD/camd.vcxproj">
+      <Project>5CBA8C2B-5D6B-4EAD-B0DF-AB96E735BE52</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/CCOLAMD/ccolamd.vcxproj">
+      <Project>575435B0-4C0B-46B1-BCF9-3A9080032DD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/CHOLMOD/cholmod.vcxproj">
+      <Project>ED81FF0A-B498-47DC-8017-C731611C857C</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/COLAMD/colamd.vcxproj">
+      <Project>93776172-B0B1-41C6-9017-032BBE1C0BC2</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/libmetis/metis.vcxproj">
+      <Project>40D16F58-7B78-491E-9E0E-299AC33EE1F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/SuiteSparse_config/suitesparseconfig.vcxproj">
+      <Project>01F586B4-8790-409D-A9AE-F45B3F834AA8</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

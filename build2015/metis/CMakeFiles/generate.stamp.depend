@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+X:/_02_Repos/Repos/19iv_SSMetis4Win/metis/CMakeLists.txt
+X:/_02_Repos/Repos/19iv_SSMetis4Win/metis/GKlib/GKlibSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindOpenMP.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake

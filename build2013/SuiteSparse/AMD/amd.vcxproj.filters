@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_1.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_2.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_aat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_control.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_defaults.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_dump.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_info.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_order.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_postorder.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_post_tree.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_preprocess.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_i_valid.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_1.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_2.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_aat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_control.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_defaults.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_dump.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_info.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_order.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_postorder.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_post_tree.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_preprocess.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\SourceWrappers\amd_l_valid.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\Include\amd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\Include\amd_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\SuiteSparse\AMD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{06C45DC1-AB2A-4061-BC17-C4A22F79E0EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{73BA9919-2CFE-4B8D-A5EB-AD6A2D7DB63F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

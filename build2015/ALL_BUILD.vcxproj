@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2CCCA680-9588-47BC-8709-64CD6A0F5974}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HX:/_02_Repos/Repos/19iv_SSMetis4Win -BX:/_02_Repos/Repos/19iv_SSMetis4Win/build2015 --check-stamp-file X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:/_02_Repos/Repos/19iv_SSMetis4Win/CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCCompiler.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\checkGetSuiteSparse.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindCUDA.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;X:\_02_Repos\Repos\19iv_SSMetis4Win\UseSuiteSparseForInstall.cmake.in;X:\_02_Repos\Repos\19iv_SSMetis4Win\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\_02_Repos\Repos\19iv_SSMetis4Win\build2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/GPUQREngine/GPUQREngine.vcxproj">
+      <Project>82046454-44B5-42E0-AFF5-A3ED69490643</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/SuiteSparse_GPURuntime/SuiteSparse_GPURuntime.vcxproj">
+      <Project>9377DC90-3406-48E5-9C95-CAA379D99D6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/ZERO_CHECK.vcxproj">
+      <Project>C99DD36A-C300-423C-834F-13CBAB0158D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/AMD/amd.vcxproj">
+      <Project>EE283042-8A2E-4C38-BCE3-665E25D4D13C</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/BTF/btf.vcxproj">
+      <Project>F490A03E-0E62-4B95-8959-D63EE25366E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/CAMD/camd.vcxproj">
+      <Project>5CBA8C2B-5D6B-4EAD-B0DF-AB96E735BE52</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/CCOLAMD/ccolamd.vcxproj">
+      <Project>575435B0-4C0B-46B1-BCF9-3A9080032DD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/CHOLMOD/cholmod.vcxproj">
+      <Project>ED81FF0A-B498-47DC-8017-C731611C857C</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/programs/cmpfillin.vcxproj">
+      <Project>1387DA25-D53E-474C-888A-5A8DDF8F66DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/COLAMD/colamd.vcxproj">
+      <Project>93776172-B0B1-41C6-9017-032BBE1C0BC2</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/CXSparse/cxsparse.vcxproj">
+      <Project>B9C72713-7C60-4619-9305-A8DA24E375EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/programs/gpmetis.vcxproj">
+      <Project>8FF54FCC-CFA3-44C3-877C-EC9C7C584E81</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/programs/graphchk.vcxproj">
+      <Project>68589660-CD07-47F3-97CC-3A33B1AFE4DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/KLU/klu.vcxproj">
+      <Project>D490ED43-F59A-48A5-BFBE-B38E556F5788</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/LDL/ldl.vcxproj">
+      <Project>8C3A0ACB-B3D8-4050-9F1E-56B89BC4EDC8</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/programs/m2gmetis.vcxproj">
+      <Project>7A112A04-F4BB-417F-8AD8-F1CC0FBF5AE9</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/libmetis/metis.vcxproj">
+      <Project>40D16F58-7B78-491E-9E0E-299AC33EE1F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/programs/mpmetis.vcxproj">
+      <Project>CFEF29C1-5214-43D5-A8FE-78C0E11355EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/metis/programs/ndmetis.vcxproj">
+      <Project>76A02655-3065-4C1C-B31B-9F8DFCAAE3CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/SPQR/spqr.vcxproj">
+      <Project>33470C49-9696-4736-8A35-BB33C97B484F</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/SuiteSparse_config/suitesparseconfig.vcxproj">
+      <Project>01F586B4-8790-409D-A9AE-F45B3F834AA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="X:/_02_Repos/Repos/19iv_SSMetis4Win/build2015/SuiteSparse/UMFPACK/umfpack.vcxproj">
+      <Project>20EF647C-A649-496D-8B20-7BE6C8C116A6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
